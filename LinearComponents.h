@@ -58,7 +58,6 @@ struct DCCurrentSource : Component {
         
         if(debug)
             std::cout << "\t Created a DC current source with nodes "<< nodes[0] << nodes[1] << " and current "<<current_in<<std::endl;
-        //joachim does suck <3 but hannah sucks more <333 :(
     }
 
     void fill_matrices_DC(Matrices<double>& matrices) override {
@@ -134,7 +133,6 @@ struct DependentCurrentSource : Component {
             std::cout << "\t Control nodes are NC+: " << control_nodes[1] << " NC-: " << control_nodes[0] << std::endl; 
         }
         
-        //joachim does suck <3 but hannah sucks more <333 :(
     }
 
     void fill_matrices_DC(Matrices<double>& matrices) override {
